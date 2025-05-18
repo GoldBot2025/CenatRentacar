@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Senat Rent a Car</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .price {
+      color: green;
+      font-size: 16px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Добро пожаловать в Senat Rent a Car</h1>
-  <p>Аренда машин в Ташкенте</p>
+  <h1>Аренда машин в Ташкенте</h1>
+  <div class="cards">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/2019_Chevrolet_Corvette_ZR1_Coupe_in_Black%2C_front_left.jpg" />
+      <div class="title">Chevrolet Corvette</div>
+      <div class="price">2 500 000 сум / месяц</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606813902919-482d23724abd" />
+      <div class="title">Ford Mustang</div>
+      <div class="price">5 000 000 сум / месяц</div>
+    </div>
+    <div class="card">
+      <img src="https://cdn.motor1.com/images/mgl/M3nGV/s1/tesla-cybertruck.webp" />
+      <div class="title">Tesla Cybertruck</div>
+      <div class="price">8 000 000 сум / месяц</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1616251512525-d7b1fdc50977" />
+      <div class="title">Toyota Supra</div>
+      <div class="price">2 000 000 сум / месяц</div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1619115887320-97554cbf53b6" />
+      <div class="title">Lamborghini Urus</div>
+      <div class="price">9 000 000 сум / месяц</div>
+    </div>
+  </div>
 </body>
 </html>
